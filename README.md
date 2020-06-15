@@ -8,7 +8,7 @@ In Chapter 3, we learned that React can be used to create things in the UI calle
 
 ## Chapter 2: Hello World
 
-In the first section of Chapter 2, titled Server-Less Hello World, we learned how to create a simple web page that could be displayed locally on my own browser.  We started by creating an HTML file titled “index.html”, where we called upon the React Core Module and the ReactDOM Module within the HTML file itself using the “<script>” tags.  The React elements are JavaScript objects that can create and then render things we want to display on the web page, which we used within a '''<div>''' to display “Hello World!” in the browser.  
+In the first section of Chapter 2, titled Server-Less Hello World, we learned how to create a simple web page that could be displayed locally on my own browser.  We started by creating an HTML file titled “index.html”, where we called upon the React Core Module and the ReactDOM Module within the HTML file itself using the “<script>” tags.  The React elements are JavaScript objects that can create and then render things we want to display on the web page, which we used within a `<div>` to display “Hello World!” in the browser.  
 
 For the next section, titled JSX, we learned that React has a markup language similar to HTML called JSX, which is short for JavaScript XML.  We learned that we can include JSX within out HTML file, and then use a compiler called Babel to take JSX snippets and transform then into regular JavaScript, which is important because the JS engine in browsers don’t understand JSX.  Once translated, we can then create things we want to display and render them using React elements.  
 
